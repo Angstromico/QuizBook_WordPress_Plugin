@@ -1,0 +1,43 @@
+.quizbook {
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+.quizbook ul {
+  list-style: none;
+}
+.quizbook ul li {
+  padding: 3rem;
+}
+.quizbook ul li h2 {
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 1rem;
+}
+.quizbook ul li .option {
+  background-color: white;
+  padding: 2rem;
+  border: 1px slid #e1e1e1;
+  margin-bottom: 2rem;
+}
+.quizbook ul li .option:hover,
+.quizbook ul li .selected {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.quizbook ul li .option h3 {
+  font-size: 1rem;
+}
+.Approved,
+.Reprobate {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.Approved {
+  border: 2px solid #248c24;
+}
+.Reprobate {
+  border: 2px solid #c20000;
+}
